@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def default_path():
-    return "Hello World! Welcome to FastAPI"
+    return "Hello World! Welcome to my application"
 
 @app.get("/hello/{name}/{address}/{contact}")
 def hello(name: str, address: str, contact: str):
